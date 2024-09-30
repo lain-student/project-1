@@ -2,16 +2,53 @@
 <html>
     <head>
         <title>Project 1</title>
+        <link rel="stylesheet" href="static/styles/main.css">
     </head>
     <body>
         <header>
+            <div class="logo">
+                
+            </div>
 
+            <ul class="navbar">
+                <li class="active"><a href="#">Главная</a></li>
+                <li><a href="#about_me">Обо мне</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#library">Библиотека</a></li>
+            </ul>
         </header>
         <main>
-            <h1>Hello world</h1>
+            <div class="wrapper">
+                <div class="block" id="ad">
+                    <h1>Спонсор</h1>
+                </div> <!-- block "ad" -->
+
+                <div class="block" id="main">
+                    <h1>Главная</h1>
+                </div> <!-- block "main" -->
+
+                <div class="block" id="about_me">
+                    <h1>Обо мне</h1>
+
+                </div> <!-- block "about_me" -->
+
+                <div class="block" id="gallery">
+                    <h1>Галерея</h1>
+
+                    <div class="image">
+                        <img src="static/assets/images/gallery/toaster.jpg">
+                        <p class="description">Тостер</p>
+                    </div>
+                </div> <!-- block "gallery" -->
+
+                <div class="block" id="library">
+                    <h1>Библиотека</h1>
+
+                </div> <!-- block "library" -->
+            </div> <!-- wrapper -->
         </main>
         <footer>
-
+            <p id="copyright">(c) 2024 Все права защищены</p>
         </footer>
     </body>
 </html>
